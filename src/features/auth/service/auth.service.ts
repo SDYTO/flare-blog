@@ -1,5 +1,4 @@
 import * as AuthRepo from "@/features/auth/data/auth.data";
-import * as ConfigService from "@/features/config/service/config.service";
 
 export async function getSession(context: SessionContext) {
   return context.session;
